@@ -22,7 +22,7 @@ const Nabvar = () => {
       
       <div id="menuOpen" className="lg:flex  hidden flex-grow justify-between absolute lg:relative lg:top-0 top-20 left-0  bg-gray-800
        w-full lg:w-auto items-center py-2 lg:py-0 px-2 sm:px-8 lg:px-0 ">
-        <div className="flex flex-col lg:flex-row mb-8 lg:mb-0">
+        <div className="flex flex-col lg:flex-row mb-8 lg:mb-0 ">
           <Link className="text-white py-2 px-2.5 rounded-md hover:bg-white hover:text-gray-900 lg:mr-7 mb-8 lg:mb-0" to='/'>Inicio</Link>
           <Link className="text-white py-2 px-2 rounded-md hover:bg-white hover:text-gray-900 lg:mr-7 mb-8 lg:mb-0" to='/Categoria'>Categoria</Link>
           <Link className="text-white py-2 px-2 rounded-md hover:bg-white hover:text-gray-900 " to='/Busqueda'>Busqueda</Link>
